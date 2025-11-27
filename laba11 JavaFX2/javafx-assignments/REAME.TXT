@@ -1,0 +1,11 @@
+# Для задания 1 (чередующиеся потоки)
+mvn clean compile
+java -cp target/classes com.example.Task1AlternatingThreads
+
+# Для заданий 2 и 3 (JavaFX приложения) измените mainClass в pom.xml
+Чтобы запускать разные приложения, меняйте <mainClass> в pom.xml:
+com.example.Task1AlternatingThreads
+
+com.example.Task2GUIThreading
+
+com.example.Task3ProgressBarApp
